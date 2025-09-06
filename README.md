@@ -1,29 +1,66 @@
-# Amazon-Dashboard
-The Amazon Sales Dashboard is an interactive data visualization project developed using Power BI to analyze and monitor key metrics related to Amazon sales performance. The dashboard provides a comprehensive view of product sales, customer behavior, regional performance, and profitability trends, enabling data-driven decision-making for stakeholders.
+# 📊 Amazon Sales Dashboard Project (Power BI)
 
-**Key Features:-**
-Sales Overview: Visual representation of total revenue, number of orders, units sold, and profit across different time periods.
+## 📝 Project Overview
 
-Product Performance: Identification of top-selling products and underperforming SKUs based on quantity sold and revenue.
+This project involves the development of an interactive **Amazon Sales Dashboard** using **Power BI**, designed to help analyze and visualize key sales metrics. The dashboard provides a comprehensive view of sales performance, customer behavior, and product trends, enabling data-driven decision-making for business growth.
 
-Category Analysis: Breakdown of sales by product categories and sub-categories for better inventory and marketing planning.
+---
 
-Customer Insights: Analysis of customer demographics, purchase frequency, and average order value.
+## 🎯 Objectives
 
-Geographic Analysis: Regional performance visualization using map charts to identify top-performing states or countries.
+- Visualize Amazon sales data in an intuitive, interactive format.
+- Track key performance indicators (KPIs) such as revenue, profit, orders, and units sold.
+- Identify top-performing products, categories, and regions.
+- Analyze customer trends and seasonal performance patterns.
+- Support business insights with drill-down capabilities and dynamic filters.
 
-Time Series Trends: Monthly and quarterly trend lines to track sales growth and seasonal patterns.
+---
 
-Interactive Filters: Slicers for category, region, date range, and customer segments to allow dynamic report filtering.
+## 🛠️ Tools & Technologies
 
-KPI Indicators: Highlight key performance indicators with color-coded visual cues for easy performance tracking.
+- **Power BI Desktop**
+- **Amazon Sales Dataset (CSV/Excel/Database)**
+- **DAX (Data Analysis Expressions)**
+- **Power Query (for data cleaning & transformation)**
 
-**Tools Used:-**
-Power BI (Data Modeling, DAX, Visualization)
+---
 
-Excel / CSV Files (for initial data source)
+## 📈 Dashboard Features
 
-Data Cleaning & Transformation using Power Query
+- **Sales Overview Page:**
+  - Total Revenue, Profit, Units Sold
+  - Monthly Sales Trend Line Chart
+  - Year-over-Year Comparison
 
-**Outcome:-**
-This dashboard enables stakeholders to gain actionable insights into sales performance, optimize product offerings, target marketing efforts, and improve overall business strategy on Amazon.
+- **Product Performance:**
+  - Top-Selling Products by Revenue
+  - Product Category Breakdown
+  - Profit Margins by Category
+
+- **Customer Insights:**
+  - Orders by Customer Location
+  - Repeat vs New Customers
+  - Customer Purchase Frequency
+
+- **Geographic Analysis:**
+  - Interactive Map showing regional sales distribution
+  - Filters by country/state
+
+- **Time Intelligence:**
+  - Sales trend by month, quarter, and year
+  - Date slicers for custom time-period analysis
+
+---
+
+## 📂 Project Structure
+
+```bash
+Amazon-Sales-Dashboard/
+├── Data/
+│   └── amazon_sales_data.csv
+├── Dashboard/
+│   └── Amazon_Sales_Dashboard.pbix
+├── README.md
+└── Screenshots/
+    └── dashboard_preview.png
+
